@@ -1,0 +1,90 @@
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+button{
+    cursor: pointer;
+}
+
+button:hover{
+    opacity: 0.7;
+    transition: 0.5s;
+}
+
+body, html{
+    height: 100%;
+    width: 100%;
+
+    
+    background-color: white;
+
+    scroll-behavior: smooth;
+    -webkit-scroll-behavior: smooth;
+    -moz-scroll-behavior: smooth;
+}
+
+.wrapper{
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+html::-webkit-scrollbar {
+    width: 15px;
+}
+   
+html::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background: #FFFAFA;
+}
+   
+html::-webkit-scrollbar-thumb {
+    background: #696969;
+    border-radius: 10px;
+}
+
+
+ul, ol {
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    user-select: none;
+}
+
+.main{
+    padding-top: 85px;
+    flex: 1 1 auto;
+}
+
+.ap_main_style {
+    color: #696969;
+    font: italic 1.2rem "Fira Sans", serif;
+    font-size: 40px;
+    text-align: center;
+}
+
+.ap_aboutme_style {
+    color: #696969;
+    font: italic 1.2rem "Fira Sans", serif;
+    font-size: 40px;
+    text-align: center;
+}
+
+.ap_contacts_style {
+    color: #696969;
+    font: italic 1.2rem "Fira Sans", serif;
+    font-size: 40px;
+    text-align: center;
+}

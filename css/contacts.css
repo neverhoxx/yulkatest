@@ -1,0 +1,28 @@
+
+
+.ap_contacts_style{
+    text-decoration: underline;
+}
+
+.ap_main_block{
+    background-color: #FFFFFF;
+    
+    margin: 0 auto;
+    margin-top: 43px;
+    border-radius: 20px;
+
+    -webkit-box-shadow:0px 0px 66px 44px rgba(107,107,107,0.27);
+    -moz-box-shadow: 0px 0px 66px 44px rgba(107,107,107,0.27);
+    box-shadow: 0px 0px 66px 44px rgba(107,107,107,0.27);
+
+    max-width: 1472px;
+
+    margin-bottom: 50px;
+}
+
+.contacts_text {
+    text-align: center;
+    color: #696969;
+    font: italic 1.2rem "Fira Sans", serif;
+    font-size: 30px;
+}
